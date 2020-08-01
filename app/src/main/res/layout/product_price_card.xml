@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:background="@color/colorTextLight"
+    android:id="@+id/rel_layer"
+    android:layout_height="80dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_layer"
+        app:cardUseCompatPadding="true"
+        android:elevation="2dp"
+        android:backgroundTint="@color/colorPositive2"
+        app:cardCornerRadius="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/txt_price"
+                android:textColor="@color/colorTextLight"
+                android:textAlignment="center"
+                android:textSize="35sp"
+                android:text="40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <ImageView
+                android:layout_marginHorizontal="10dp"
+                android:background="@color/colorTextLight"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+
+            </ImageView>
+            <TextView
+                android:id="@+id/txt_name"
+                android:textAlignment="center"
+                android:textColor="@color/colorTextLight"
+                android:text="ขายปลีก"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

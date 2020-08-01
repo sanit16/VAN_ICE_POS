@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPositive</item>
+        <item name="colorPrimaryDark">@color/colorPositive2</item>
+        <item name="colorAccent">@color/colorWarning</item>
+    </style>
+    <style name="green_pad">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/colorTextLight</item>
+        <item name="android:background">@color/colorPositive</item>
+
+    </style>
+    <style name="red_pad">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/colorTextLight</item>
+        <item name="android:background">@color/colorNegative</item>
+
+    </style>
+    <style name="orange_pad">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/colorTextLight</item>
+        <item name="android:background">@color/colorWarning</item>
+
+    </style>
+</resources>

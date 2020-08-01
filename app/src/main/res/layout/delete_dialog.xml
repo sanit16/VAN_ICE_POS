@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:paddingRight="10dp"
+            android:textAlignment="textEnd"
+            android:textColor="@color/colorTextLight"
+            android:textSize="20sp"
+            android:text="@string/confirm_to_delete"
+            android:background="@color/colorPositive2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+
+        </Button>
+        <LinearLayout
+            android:paddingBottom="10dp"
+            android:background="@color/colorPositive"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txt_name"
+                android:paddingVertical="5dp"
+                android:textColor="@color/colorTextLight"
+                android:paddingRight="10dp"
+                android:textAlignment="textEnd"
+                android:textSize="20sp"
+                android:text="ร้านแสงทอง"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <ImageView
+                android:layout_marginLeft="200dp"
+                android:background="@color/colorTextLight"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+
+            </ImageView>
+            <TextView
+                android:id="@+id/txt_phone"
+                android:paddingVertical="3dp"
+                android:textColor="@color/colorTextLight"
+                android:paddingRight="12dp"
+                android:textAlignment="textEnd"
+                android:textSize="18sp"
+                android:text="0802829132"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_alignParentBottom="true"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:background="@color/colorPositive"
+                android:id="@+id/btn_negative"
+                android:textColor="@color/colorTextLight"
+                android:text="@string/cancel"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="50dp">
+
+            </Button>
+            <ImageView
+                android:background="@color/colorTextLight"
+                android:layout_marginVertical="5dp"
+                android:layout_width="1dp"
+                android:layout_height="match_parent">
+
+            </ImageView>
+            <Button
+
+                android:id="@+id/btn_positive"
+                android:textColor="@color/colorTextLight"
+                android:background="@color/colorNegative"
+                android:text="@string/delete"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="50dp">
+
+            </Button>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

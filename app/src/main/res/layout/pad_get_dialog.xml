@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/colorTextLight"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+            <TextView
+                android:layout_marginRight="10dp"
+                android:textAlignment="textEnd"
+                android:id="@+id/txt_name"
+                android:textSize="25sp"
+                android:text="น้ำแข็งบดละเอียด"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <LinearLayout
+                android:weightSum="10"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+                <TextView
+                    android:paddingRight="10dp"
+                    android:textAlignment="textEnd"
+                    android:layout_weight="7"
+                    android:text="0"
+                    android:id="@+id/txt_value"
+                    android:textColor="@color/colorNegative"
+                    android:textSize="60sp"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    >
+
+                </TextView>
+                <TextView
+                    android:layout_weight="3"
+                    android:id="@+id/txt_unit"
+                    android:textSize="25sp"
+                    android:text="กส."
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+            <Button
+                android:id="@+id/one"
+                style="@style/green_pad"
+                android:text="1"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            </Button>
+            <Button
+                android:id="@+id/two"
+                style="@style/green_pad"
+                android:textSize="25dp"
+                android:text="2"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            </Button>
+            <Button
+                android:id="@+id/three"
+                style="@style/green_pad"
+                android:textSize="25dp"
+                android:text="3"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+            <Button
+                android:id="@+id/four"
+                style="@style/green_pad"
+                android:textSize="25dp"
+                android:text="4"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            </Button>
+            <Button
+                android:id="@+id/five"
+                style="@style/green_pad"
+                android:textSize="25dp"
+                android:text="5"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            </Button>
+            <Button
+                android:id="@+id/six"
+                style="@style/green_pad"
+                android:textSize="25dp"
+                android:text="6"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+            <Button
+                android:id="@+id/seven"
+                style="@style/green_pad"
+                android:textSize="25dp"
+                android:text="7"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            </Button>
+            <Button
+                android:id="@+id/eight"
+                style="@style/green_pad"
+                android:textSize="25dp"
+                android:text="8"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            </Button>
+            <Button
+                android:id="@+id/nine"
+                style="@style/green_pad"
+                android:textSize="25dp"
+                android:text="9"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+            <Button
+                android:id="@+id/c"
+                style="@style/orange_pad"
+                android:textSize="25dp"
+                android:text="C"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            </Button>
+            <Button
+                android:id="@+id/zero"
+                style="@style/green_pad"
+                android:textSize="25dp"
+                android:text="0"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            </Button>
+            <Button
+                android:id="@+id/x"
+                style="@style/red_pad"
+                android:textSize="25dp"
+                android:text="X"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            </Button>
+        </LinearLayout>
+        <Button
+            android:id="@+id/ok"
+            style="@style/green_pad"
+            android:textSize="25sp"
+            android:text="ตกลง"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"></Button>
+    </LinearLayout>
+
+</RelativeLayout>

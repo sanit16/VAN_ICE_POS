@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+android:paddingBottom="1dp"
+xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+android:layout_height="60dp">
+<LinearLayout
+    android:weightSum="20"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:paddingLeft="10dp"
+        android:id="@+id/txt_name"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:text="น้ำแข็งบดละเอียดohec-H'w.l"
+        android:layout_weight="12"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+
+    </TextView>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/edit_sell"
+            android:background="@color/colorPositive"
+            android:textColor="@color/colorTextLight"
+            android:text="0"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+
+        </Button>
+        <LinearLayout
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:background="@color/colorPositive2"
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+            <TextView
+                android:textAlignment="center"
+                android:text="@string/old"
+                android:textColor="@color/colorTextLight"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            </TextView>
+            <ImageView
+                android:background="@color/colorTextLight"
+                android:layout_marginVertical="4dp"
+                android:layout_width="1dp"
+                android:layout_height="match_parent">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/btn_sell"
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="@color/colorTextLight">
+
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="1dp"
+        android:layout_height="match_parent">
+
+    </ImageView>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/edit_price"
+            android:paddingRight="5dp"
+            android:textAlignment="textEnd"
+            android:background="@color/colorWarning"
+            android:textColor="@color/colorTextLight"
+            android:text="0.0"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+
+        </Button>
+        <LinearLayout
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:background="@color/colorWarning2"
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+            <TextView
+                android:textAlignment="center"
+                android:text="@string/old"
+                android:textColor="@color/colorTextLight"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            </TextView>
+            <ImageView
+                android:background="@color/colorTextLight"
+                android:layout_marginVertical="4dp"
+                android:layout_width="1dp"
+                android:layout_height="match_parent">
+
+            </ImageView>
+            <TextView
+                android:id="@+id/btn_price"
+
+                android:paddingRight="5dp"
+                android:textColor="@color/colorTextLight"
+                android:layout_weight="2"
+                android:textAlignment="textEnd"
+                android:text="0.0"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+</RelativeLayout>

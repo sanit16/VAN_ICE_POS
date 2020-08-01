@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginBottom="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:weightSum="10"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/colorTextDark"
+                android:textSize="16sp"
+                android:layout_weight="2"
+                android:text="สายส่ง"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <TextView
+                android:textColor="@color/colorTextTwilight"
+                android:textSize="16sp"
+                android:layout_weight="1"
+                android:text="01"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <TextView
+                android:textColor="@color/colorTextDark"
+                android:textSize="16sp"
+                android:layout_weight="2"
+                android:text="เบอร์รถ"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <TextView
+                android:textColor="@color/colorTextTwilight"
+                android:textSize="16sp"
+                android:layout_weight="2"
+                android:text="02"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <TextView
+                android:textColor="@color/colorTextDark"
+                android:textSize="16sp"
+                android:layout_weight="1"
+                android:text="ชื่อ"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <TextView
+                android:textColor="@color/colorTextTwilight"
+                android:textSize="16sp"
+                android:layout_weight="2"
+                android:text="วาย "
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </LinearLayout>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorTextDark"
+            android:text="สรุปรายได้ประจำเดือน 05-2020"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <LinearLayout
+            android:weightSum="10"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/colorTextDark"
+                android:textSize="25sp"
+                android:text="Week1"
+                android:layout_weight="4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            </TextView>
+            <Button
+                android:textColor="@color/colorTextDark"
+                android:textSize="20sp"
+                android:gravity="right"
+                android:text="7,900.00"
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            </Button>
+            <TextView
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/colorTextDark"
+                android:textSize="25sp"
+                android:text="บาท"
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:weightSum="10"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/colorTextDark"
+                android:textSize="25sp"
+                android:text="Week2"
+                android:layout_weight="4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            </TextView>
+            <Button
+                android:textColor="@color/colorTextDark"
+                android:textSize="20sp"
+                android:gravity="right"
+                android:text="120.00"
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            </Button>
+            <TextView
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/colorTextDark"
+                android:textSize="25sp"
+                android:text="บาท"
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/colorTextDark"
+            android:text="รวมเป็นเงิน"
+            android:textSize="20sp"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="50dp">
+
+        </TextView>
+        <TextView
+            android:textSize="20sp"
+            android:textAlignment="textEnd"
+            android:paddingRight="10dp"
+            android:gravity="center_vertical"
+            android:layout_gravity="right"
+            android:textColor="@color/colorTextDark"
+            android:text="8,020.00"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="50dp">
+
+        </TextView>
+        <TextView
+            android:textSize="20sp"
+
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/colorTextDark"
+            android:text="บาท"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="50dp">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_negative"
+            android:textColor="@color/colorTextLight"
+            android:text="ย้อนกลับ"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="50dp">
+
+        </Button>
+
+    </LinearLayout>
+
+</RelativeLayout>

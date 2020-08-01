@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapListCustomer">
+    <fragment
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_marginBottom="150dp"
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </fragment>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:background="@color/colorPositive3"
+            android:id="@+id/btn_negative"
+            android:textColor="@color/colorTextLight"
+            android:text="@string/cancel"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="50dp">
+
+        </Button>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

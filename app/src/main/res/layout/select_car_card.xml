@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rel_layer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <ImageView
+            android:id="@+id/img_image"
+            android:padding="10dp"
+            android:src="@drawable/truck"
+            android:layout_width="80dp"
+            android:layout_height="80dp">
+
+        </ImageView>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/txt_header"
+                android:paddingLeft="15dp"
+                android:textColor="@color/colorTextDark"
+                android:text="กฉ1896"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <TextView
+                android:id="@+id/txt_body"
+                android:paddingLeft="15dp"
+                android:textColor="@color/colorTextTwilight"
+                android:text="Honda city"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

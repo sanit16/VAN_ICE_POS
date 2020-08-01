@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:paddingBottom="1dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="60dp">
+    <LinearLayout
+        android:weightSum="20"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:paddingLeft="10dp"
+            android:id="@+id/txt_name"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:text="น้ำแข็งบดละเอียดohec-H'w.l"
+            android:layout_weight="12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+
+        </TextView>
+        <Button
+            android:background="@color/colorPositive"
+            android:textColor="@color/colorTextLight"
+            android:id="@+id/btn_sell"
+            android:text="10"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+        </Button>
+        <ImageView
+            android:background="@color/colorTextLight"
+            android:layout_width="1dp"
+            android:layout_height="match_parent">
+
+        </ImageView>
+        <Button
+            android:background="@color/colorWarning"
+            android:textColor="@color/colorTextLight"
+            android:id="@+id/btn_price"
+            android:text="10"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

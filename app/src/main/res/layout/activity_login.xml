@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPositive2"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textColor="@color/colorTextLight"
+            android:paddingRight="10dp"
+            android:textSize="30sp"
+            android:textAlignment="textEnd"
+            android:text="Login "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+        <ImageView
+
+            android:layout_marginLeft="200dp"
+            android:background="@color/colorTextLight"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+
+        </ImageView>
+        <TextView
+            android:textColor="@color/colorTextLight"
+            android:paddingRight="20dp"
+
+            android:textSize="16sp"
+            android:textAlignment="textEnd"
+            android:text="VAN ICE POS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+        <LinearLayout
+            android:layout_marginVertical="5dp"
+            android:weightSum="10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:drawableLeft="@drawable/user"
+                android:textColor="@color/colorTextLight"
+                android:textColorHint="@color/colorTextLight"
+                android:background="@color/colorPositive"
+                android:paddingLeft="10dp"
+                android:id="@+id/edt_username"
+                android:hint="กรุณากรอกชื่อผู้ใช้"
+                android:layout_weight="10"
+                android:layout_width="0dp"
+                android:layout_height="50dp">
+
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginVertical="5dp"
+
+            android:weightSum="10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:textColor="@color/colorTextLight"
+                android:textColorHint="@color/colorTextLight"
+                android:drawableLeft="@drawable/password"
+                android:background="@color/colorPositive"
+                android:paddingLeft="10dp"
+                android:id="@+id/edt_password"
+                android:inputType="textPassword"
+                android:hint="กรุณากรอกรหัสผ่าน"
+                android:layout_weight="10"
+                android:layout_width="0dp"
+                android:layout_height="50dp">
+
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginVertical="5dp"
+
+            android:weightSum="10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:drawableLeft="@drawable/line"
+                android:paddingLeft="10dp"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorTextLight"
+                android:textSize="18sp"
+                android:background="@color/colorPositive"
+                android:text="@string/select_line"
+                android:id="@+id/spn_line"
+                android:layout_weight="10"
+                android:layout_width="0dp"
+                android:layout_height="50dp">
+
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginVertical="5dp"
+
+            android:visibility="invisible"
+            android:id="@+id/lin_car_group"
+            android:weightSum="10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:drawableLeft="@drawable/car"
+                android:textSize="18sp"
+                android:paddingLeft="10dp"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorTextLight"
+                android:background="@color/colorPositive"
+                android:id="@+id/spn_car"
+                android:layout_weight="10"
+                android:layout_width="0dp"
+                android:layout_height="50dp">
+
+            </Button>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:background="@color/colorPositive2"
+            android:id="@+id/btn_negative"
+            android:textColor="@color/colorTextLight"
+            android:text="ยกเลิก"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="50dp">
+
+        </Button>
+        <ImageView
+            android:layout_marginVertical="10dp"
+            android:background="@color/colorTextLight"
+            android:layout_width="1dp"
+            android:layout_height="match_parent">
+
+        </ImageView>
+        <Button
+            android:id="@+id/btn_positive"
+            android:textColor="@color/colorTextLight"
+            android:background="@color/colorPositive"
+            android:text="เข้าสู่ระบบ"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="50dp">
+
+        </Button>
+
+    </LinearLayout>
+
+</RelativeLayout>
